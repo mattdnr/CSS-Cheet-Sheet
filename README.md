@@ -15,4 +15,12 @@ Each topic is in a div
 Each topic has a table for tags and a table for attributes
 Each topic is in a div
 Each div has a corresponding class
-Each tag or attribute has an id
+Each tag or attribute has an class
+
+
+<footer>
+    <span>Created by <strong>@mattdnr</strong></span>
+    <span class="documentDate">03-09-2024</span>
+    <span class="versionNumber">V0.01</span>
+    <span class="updateTime">Last update on 03-09-2024</span>
+</footer>

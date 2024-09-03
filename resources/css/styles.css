@@ -1,0 +1,92 @@
+body {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: darkslateblue ;
+    color: oldlace;
+    display: block;
+    margin: 10px;
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px ;
+}
+
+main {
+    
+}
+
+div {
+    padding: 15px;
+}
+
+table {
+    border: 3px solid bisque;
+    width: 1500px;
+    margin: 0 auto;
+    text-align: start;
+    vertical-align: middle;
+    display: table;
+    font-size: 20px;
+    
+    
+}
+
+caption {
+    text-align: center;
+    font-size:30px;
+    font-weight: 500;
+    color: coral;
+    display: table-caption;
+    padding: 10px;
+}
+
+thead {
+    background-color: slateblue ;
+    display: table-header-group;
+}
+
+th {
+    font-weight: bold;
+    display: table-cell;
+}
+
+tr {
+    display: table-row;
+
+}
+
+td {
+    display: table-cell;
+    border: 1px solid bisque;
+}
+
+footer {
+    padding-top: 90px;
+    display:inline;
+    width: 100%;
+}
+
+.tag {
+    background-color: bisque;
+    color:darkslategrey ;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.name {
+    padding-right: 15px;
+    text-transform: capitalize;
+}
+
+.versionNumber{
+    width: 100%;
+    text-align: end;
+}
+
+.updateDate {
+    width: 100%;
+    text-align: end;
+}
