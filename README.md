@@ -8,3 +8,11 @@ Set of holy rules :
 4- Give example(s) of code for each topic
 5- Keep upgrading the library
 6- INSERT NEXT RULE HERE
+
+
+hmtl doc rules FOR ME:
+Each topic is in a div
+Each topic has a table for tags and a table for attributes
+Each topic is in a div
+Each div has a corresponding class
+Each tag or attribute has an id
