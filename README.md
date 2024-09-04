@@ -21,6 +21,6 @@ Each tag or attribute has an class
 <footer>
     <span>Created by <strong>@mattdnr</strong></span>
     <span class="documentDate">03-09-2024</span>
-    <span class="versionNumber">V0.01</span>
-    <span class="updateTime">Last update on 03-09-2024</span>
+    <span class="versionNumber">V0.02</span>
+    <span class="updateTime">Last update on 04-09-2024</span>
 </footer>
