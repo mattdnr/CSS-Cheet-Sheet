@@ -32,6 +32,32 @@ header button:active {
     color: coral;
 }
 
+.breadcrumbs li {
+    display: inline;
+    font-size:25px;
+    color: oldlace;
+}
+
+.breadcrumbs li+li::before {
+    content: ">";
+    color: lightslategray;
+}
+
+.breadcrumbs li:visited {
+    color: oldlace;
+}
+
+.breadcrumbs li:focus {
+    color: oldlace;
+}
+
+.breadcrumbs li:hover {
+    color: coral;
+}
+
+.breadcrumbs li:active {
+    font-size: 27px;
+}
 
 div {
     padding: 15px;
