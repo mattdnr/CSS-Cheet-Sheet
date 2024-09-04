@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matt's CSS Cheat Sheet</title>
+    <link rel="stylesheet" href="../resources/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>HTML Tags and Attributes</h1>
+    </header>
+    
+    
+    <main>
+        <div class="lists">
+            <table>
+                <caption>List Tags</caption>
+                <thead>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Example link</th>
+                </thead>
+                <tbody>
+                    <tr id="unordered-lists">
+                        <td class="tag">&ltul&gt</td>
+                        <td class="name">Unordered lists</td>
+                        <td>The wrapper element of unordered-lists</td>
+                        <td>/</td>
+                    </tr>
+                    <tr id="ordered-lists">
+                        <td class="tag">&ltol&gt</td>
+                        <td class="name">Ordered lists</td>
+                        <td>The wrapper element of ordered-lists</td>
+                        <td>/</td>
+                    </tr>
+                    <tr id="list-element">
+                        <td class="tag">&ltli&gt</td>
+                        <td class="name">List element</td>
+                        <td>The list element</td>
+                        <td>/</td>
+                    </tr>
+                    <tr id="description-lists">
+                        <td class="tag">&ltdl&gt</td>
+                        <td class="name">Description list</td>
+                        <td>The wrapper element of description-lists</td>
+                        <td>/</td>
+                    </tr>
+                    <tr id="data-term">
+                        <td class="tag">&ltdt&gt</td>
+                        <td class="name">Data term</td>
+                        <td>The defining element within a description-lists</td>
+                        <td>/</td>
+                    </tr>
+                    <tr id="term-name">
+                        <td class="tag">&ltdd&gt</td>
+                        <td class="name">Term name</td>
+                        <td>The describing element within a defining element of a description-lists</td>
+                        <td>/</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="tables">
+            <div class="tableTags">
+                <table>
+                    <caption>Table Tags</caption>
+                    <thead>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Example link</th>
+                    </thead>
+                    <tbody>
+                        <tr id="table-tag">
+                            <td class="tag">&lttable&gt</td>
+                            <td class="name">Table</td>
+                            <td>The wrapper element of tables</td>
+                            <td>/</td>
+                        </tr>
+                        <tr id="caption-tag">
+                            <td class="tag">&ltcaption&gt</td>
+                            <td class="name">Caption</td>
+                            <td>The name of the table</td>
+                            <td>/</td>
+                        </tr>
+                        <tr id="table-head">
+                            <td class="tag">&ltthead&gt</td>
+                            <td class="name">Table head</td>
+                            <td>The set of rows defining the column headers in a table</td>
+                            <td>/</td>
+                        </tr>
+                        <tr id="table-body">
+                            <td class="tag">&lttbody&gt</td>
+                            <td class="name">Table body</td>
+                            <td>The set of rows containing the actual table data</td>
+                            <td>/</td>
+                        </tr>
+                        <tr id="table-row">
+                            <td class="tag">&lttr&gt</td>
+                            <td class="name">Table row</td>
+                            <td>The table row wrapper</td>
+                            <td>/</td>
+                        </tr>
+                        <tr id="table-head-data">
+                            <td class="tag">&ltth&gt</td>
+                            <td class="name">Table head data</td>
+                            <td>The table head row container</td>
+                            <td>/</td>
+                        </tr>
+                        <tr id="table-data">
+                            <td class="tag">&lttd&gt</td>
+                            <td class="name">Table data</td>
+                            <td>The table row container</td>
+                            <td>/</td>
+                        </tr>
+                        <tr id="table-foot">
+                            <td class="tag">&lttfoot&gt</td>
+                            <td class="name">Table footer</td>
+                            <td>The table footer wrapper</td>
+                            <td>/</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="tableAttributes">
+                <table>
+                    <caption>Table Attributes</caption>
+                    <thead>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Example link</th>
+                    </thead>
+                    <tbody>
+                        <tr id="colspan">
+                            <td class="tag">colspan</td>
+                            <td class="name">Column Span</td>
+                            <td>Defines how many columns a td element should span</td>
+                            <td>/</td>
+                        </tr>
+                        <tr id="rowspan">
+                            <td class="tag">rowspan</td>
+                            <td class="name">Row Span</td>
+                            <td>Defines how many rows a td element should span</td>
+                            <td>/</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="forms">
+            <div class="formsTags">
+                <table>
+                    <caption>Forms Tags</caption>
+                    <thead>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Example link</th>
+                    </thead>
+                    <tbody>
+                        <tr id="form-tag">
+                            <td class="tag">&ltform&gt</td>
+                            <td class="name">Form</td>
+                            <td>The wrapper element of forms</td>
+                            <td>/</td>
+                        </tr>
+                        <tr id="label-tag">
+                            <td class="tag">&ltlabel&gt</td>
+                            <td class="name">Label</td>
+                            <td>The name of the form</td>
+                            <td>/</td>
+                        </tr>
+                        <tr id="input-tag">
+                            <td class="tag">&ltinput&gt</td>
+                            <td class="name">Input</td>
+                            <td>Tag describing what is going to go in the form and how it interacts with the code</td>
+                            <td>/</td>
+                        </tr>
+            </div>
+            <div class="formsAttributes">
+                <table>
+                    <caption>Forms Attributes</caption>
+                    <thead>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Example link</th>
+                    </thead>
+                    <tbody>
+                        <tr id="for">
+                            <td class="tag">for</td>
+                            <td class="name">For</td>
+                            <td>The type of the form.</td>
+                            <td>"username", "password", "html", "javascript"...</td>
+                        </tr>
+                        <tr id="type">
+                            <td class="tag">type</td>
+                            <td class="name">Type</td>
+                            <td>The type of the input</td>
+                            <td>"text", "password", "submit", "radio", "checkbox", "number", "file", "date"...</td>
+                        </tr>
+                        <tr id="action">
+                            <td class="tag">action</td>
+                            <td class="name">Action</td>
+                            <td>The form needs an action from the user</td>
+                            <td>/</td>
+                        </tr>
+                        <tr id="name">
+                            <td class="tag">name</td>
+                            <td class="name">Name</td>
+                            <td>Name of the input once in memory</td>
+                            <td>/</td>
+                        </tr>
+                        <tr id="value">
+                            <td class="tag">value</td>
+                            <td class="name">Value</td>
+                            <td>Value type of the input once in memory</td>
+                            <td>"HTML", "javascript"...</td>
+                        </tr>
+                        <tr id="id">
+                            <td class="tag">id</td>
+                            <td class="name">ID</td>
+                            <td>Name of the input used within the html code</td>
+                            <td>/</td>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="buttons">
+            <table>
+                <caption>Buttons Tags</caption>
+                <thead>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Example link</th>
+                </thead>
+                <tbody>
+                    <tr id="button">
+                        <td class="tag">&ltbutton&gt</td>
+                        <td class="name">Button</td>
+                        <td>The creation of a button</td>
+                        <td>/</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <span>Copyright <strong>@mattdnr</strong></span>
+        <span class="versionNumber">V0.02</span>
+        <br>
+        <span class="documentDate">03-09-2024</span>
+    
+        <span class="updateDate">Last update on 04-09-2024</span>
+    </footer>
+
+
+</body>
+
