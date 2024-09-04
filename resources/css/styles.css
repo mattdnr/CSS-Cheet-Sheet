@@ -4,21 +4,32 @@ body {
     font-style: normal;
     background-color: darkslateblue ;
     color: oldlace;
-    display: block;
     margin: 10px;
 }
 
 header h1 {
     text-align: center;
     font-size: 40px;
-    padding-bottom: 50px ;
+  
 }
 
 header button {
-    width: 200px;
-    height: 50px;
-    margin-bottom: 4px;
+    height: 45px;
+    width: 500px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bold;
+}
 
+header button:hover {
+    background-color: bisque;
+    color: darkslategrey;
+}
+
+header button:active {
+    border: 2px solid coral;
+    font-size: 22px;
+    color: coral;
 }
 
 
